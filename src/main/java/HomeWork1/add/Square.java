@@ -2,10 +2,9 @@ package HomeWork1.add;
 
 public class Square {
     public static void main(String[] args) {
-        byte saidSquare = 10;
-        int areaSquare = saidSquare * saidSquare;
+        byte squareSide = 10;
+        int areaSquare = squareSide * squareSide;
 
         System.out.println("Площадь квадрата = " + areaSquare);
-
     }
 }
