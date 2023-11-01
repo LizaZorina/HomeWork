@@ -15,6 +15,5 @@ public final class NumberOfEmployees {
         System.out.println("Общее количество тестировщиков " + totalTesters);
         System.out.println("Общее количество специалистов поддержки " + totalSupportSpeciality);
         System.out.println("Общее количество специалистов " + totalSpeciality);
-
     }
 }
