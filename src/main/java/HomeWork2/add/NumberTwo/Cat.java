@@ -1,4 +1,6 @@
-package HomeWork2.add;
+package HomeWork2.add.NumberTwo;
+
+import HomeWork2.add.NumberTwo.Animal;
 
 // доп. задание 2
 public class Cat extends Animal {

@@ -1,4 +1,4 @@
-package HomeWork2.add;
+package HomeWork2.add.NumberThree;
 
 public class Private {
     private int age = 2;

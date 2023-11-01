@@ -1,4 +1,4 @@
-package HomeWork2.add;
+package HomeWork2.add.NumberTwo;
 
 // доп. задание 2
 public class Fish {

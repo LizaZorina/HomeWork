@@ -1,9 +1,9 @@
-package HomeWork2.add;
+package HomeWork2.add.NumberFive;
 
 public class Catcat {
-    public String name; // вместо pablic должен быть private
-    public int age;// вместо pablic должен быть private
-    public int weight;// вместо pablic должен быть private
+    private String name; // вместо pablic должен быть private
+    private int age;// вместо pablic должен быть private
+    private int weight;// вместо pablic должен быть private
 
     public Catcat(String name, int age, int weight) {
         this.name = name;

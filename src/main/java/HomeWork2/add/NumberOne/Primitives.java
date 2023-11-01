@@ -1,4 +1,4 @@
-package HomeWork2.add;
+package HomeWork2.add.NumberOne;
 
 public class Primitives {
     public static void main(String[] args) {

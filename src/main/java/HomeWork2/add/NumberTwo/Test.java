@@ -1,5 +1,8 @@
-package HomeWork2.add;
+package HomeWork2.add.NumberTwo;
 
+import HomeWork2.add.NumberTwo.Cat;
+import HomeWork2.add.NumberTwo.Duck;
+import HomeWork2.add.NumberTwo.Fish;
 // доп. задание 2
 public class Test {
     public static void main(String[] args) {
