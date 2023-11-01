@@ -2,7 +2,6 @@ package HomeWork2;
 
 public class TravelTime {
     public static void main(String[] args) {
-
         final int distance = 66; // расстояние от дома до офиса в км.
         final double taxiSpeed = 55.5; // средняя скорость такси
         final double coefficient = 1.25; // коэффициент замедления транспорта вечером

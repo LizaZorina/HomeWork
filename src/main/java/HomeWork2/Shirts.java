@@ -13,7 +13,7 @@ public class Shirts {
         double allShirtsAreDiscounted = allShirtsWithoutDiscount * (100 - discountPercentage) / 100; // цена всех рубашек со скидкой
         double oneShirtDiscount = shirtPrice * (100 - discountPercentage) / 100; // цена одной рубашки со скидкой
         double discountAmount = allShirtsWithoutDiscount - allShirtsAreDiscounted; // количество сэкономленных денег, если рубашки куплены со скидкой
-        double freebie = discountAmount / shirtPrice; // получено рубашек на халяву
+        double freeShirts = discountAmount / shirtPrice; // получено рубашек на халяву
 
         System.out.println("Цена рубашки без скидки " + shirtPrice + " руб.");
         System.out.println("Количество уже выбранных рубашек " + numberOfSelectedShirts + " штук.");
@@ -26,6 +26,6 @@ public class Shirts {
         System.out.println("Цена всех рубашек со скидкой " + allShirtsAreDiscounted + " руб.");
         System.out.println("Цена одной рубашки со скидкой " + oneShirtDiscount + " руб.");
         System.out.println("Количество сэкономленных денег, если рубашки куплены со скидкой " + discountAmount + " руб.");
-        System.out.println("Получено рубашек на халяву " + freebie + " штук.");
+        System.out.println("Получено рубашек на халяву " + freeShirts + " штук.");
     }
 }
