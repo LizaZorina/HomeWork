@@ -1,13 +1,13 @@
 package HomeWork2;
 
 public class Apples {
-    private static final int buratinoApples = 10; //количество яблок у Буратино
-    private static final int karabasBarabasApples = 2; // отобранные яблоки
-    private static int applesLeft = buratinoApples - karabasBarabasApples; // осталось яблок у Буратино
+    public static final int BURATINO_APPLES = 10; //количество яблок у Буратино
+    public static final int KARABAS_BARABAS_APPLES = 2; // отобранные яблоки
+    public static int applesLeft = BURATINO_APPLES - KARABAS_BARABAS_APPLES; // осталось яблок у Буратино
 
     public static void main(String[] args) {
-        System.out.println("У Буратино было " + buratinoApples + " яблок.");
-        System.out.println("Карабас Барабас украл " + karabasBarabasApples + " яблока");
+        System.out.println("У Буратино было " + BURATINO_APPLES + " яблок.");
+        System.out.println("Карабас Барабас украл " + KARABAS_BARABAS_APPLES + " яблока");
         System.out.println("У Буратино осталось " + applesLeft + " яблок");
     }
 }
