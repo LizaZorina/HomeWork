@@ -1,18 +1,23 @@
 package HomeWork3;
 
+import java.util.Scanner;
+
 public class Buckwheat {
-    public static int kilogramPerMonth = 6; // 6 кг гречки съедает Василий за месяц
-    public static int totalBuckwheat = 100; // запасы кречки в количестве 100 кг
-    public static int monthsOfStorage = totalBuckwheat / kilogramPerMonth; // количество месяцев хранения гречки
-    public static int storagePrice = 100; // цена хранения 1 кг
-    public static int balanceLastMonth = totalBuckwheat - monthsOfStorage * kilogramPerMonth; // вычислили остаток гречки в последний месяц
+    public static int kilogramPerMonth = 6;
+    public static int totalBuckwheat = 100;
+    public static int storagePrice = 100;
 
     public static void main(String[] args) {
-        int[] numbers = new int[monthsOfStorage + 1]; // +1 ячейка в массиве, для остатка гречки в последний месяц (balanceLastMonth)
-        numbers[0] = balanceLastMonth;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Количество месяцев: ");
+
+        int numberOfMonths = scanner.nextInt();
+
+        int[] numbers = new int[numberOfMonths];
 
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = numbers[0] + i * kilogramPerMonth;
+            numbers[i] = kilogramPerMonth + (kilogramPerMonth * i);
         }
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i] * storagePrice);

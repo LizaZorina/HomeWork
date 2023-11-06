@@ -1,20 +1,20 @@
 package HomeWork3;
 
-import java.util.Scanner;
-
 public class PrimeNumber {
+    public static int number = 89;
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите число: ");
 
-        int number = scanner.nextInt();
+        if (number <= 1) {
 
-        if ((number % 2 == 0) || (number % 3 == 0) || (Math.sqrt(number) * Math.sqrt(number) == number))
-        {
-            System.out.println("Число составное");
-        }
-        else
-        {
+            System.out.println("Число ни простое, ни составное");
+        } else {
+            for (int i = 2; i < number; i++) {
+                if (number % i == 0) {
+                    System.out.println("Число составное");
+                    return;
+                }
+            }
             System.out.println("Число простое");
         }
     }

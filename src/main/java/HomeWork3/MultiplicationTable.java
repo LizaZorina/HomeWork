@@ -2,13 +2,11 @@ package HomeWork3;
 
 public class MultiplicationTable {
     public static void main(String[] args) {
-        for (int i = 1; i <= 9; i++) {
-            System.out.println("Умножение на " + i);
-            int a = 1;
-            while (a <= 9) {
-                System.out.println(i + " * " + a + " = " + i * a);
-                a++;
+        for (int i = 1; i <= 10; i++) {
+            for (int a = 1; a <= 10; a++) {
+                System.out.printf("%5d", +i * a);
             }
+            System.out.println("");
         }
     }
 }
