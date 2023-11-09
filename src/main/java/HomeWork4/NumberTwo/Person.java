@@ -3,6 +3,7 @@ package HomeWork4.NumberTwo;
 public class Person {
     String names;
     int apples;
+    
 
     void displayInfo() {
         System.out.print(names + " хранит " + apples);
