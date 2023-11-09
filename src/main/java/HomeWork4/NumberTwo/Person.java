@@ -1,17 +1,6 @@
-package HomeWork4;
+package HomeWork4.NumberTwo;
 
-public class IvanAndApples {
-
-    public static void main(String[] args) {
-        Person ivan = new Person();
-        ivan.names = "Иван";
-        ivan.apples = 26;
-        ivan.displayInfo();
-    }
-}
-
-class Person {
-
+public class Person {
     String names;
     int apples;
 

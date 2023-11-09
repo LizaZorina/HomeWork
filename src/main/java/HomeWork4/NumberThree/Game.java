@@ -1,4 +1,4 @@
-package HomeWork4;
+package HomeWork4.NumberThree;
 
 import java.util.ArrayList;
 import java.util.List;
