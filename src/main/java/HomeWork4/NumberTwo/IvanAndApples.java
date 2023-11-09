@@ -7,6 +7,5 @@ public class IvanAndApples {
         ivan.names = "Иван";
         ivan.apples = 35;
         ivan.displayInfo();
-
     }
 }

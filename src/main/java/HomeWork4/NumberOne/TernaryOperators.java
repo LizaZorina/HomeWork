@@ -20,5 +20,4 @@ public class TernaryOperators {
                                 "negative-p"));
         System.out.println(result);
     }
-
 }
