@@ -18,7 +18,6 @@ public class House {
         ArrayList<String> adultsResidents = new ArrayList<>();
         for (Map.Entry<Integer, String> entry : names.entrySet()) {
             Integer key = entry.getKey();
-            String value = entry.getValue();
             {
                 if (key >= 18) {
                     adultsResidents.add(entry.getValue());
