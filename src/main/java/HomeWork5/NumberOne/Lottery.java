@@ -1,4 +1,4 @@
-package HomeWork5;
+package HomeWork5.NumberOne;
 
 import java.util.ArrayList;
 import java.util.Collections;

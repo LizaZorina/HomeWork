@@ -1,4 +1,4 @@
-package HomeWork5;
+package HomeWork5.NumberThree;
 
 import java.util.*;
 
