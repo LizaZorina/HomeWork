@@ -5,6 +5,7 @@ import HomeWork7.UnitTest;
 public class Test {
 
     @org.junit.Test
+    
     public void token() {
         UnitTest.addToken();
         UnitTest.makingReservation();

@@ -2,9 +2,7 @@ package HomeWork7;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-
 import static io.restassured.RestAssured.given;
-
 import io.restassured.http.ContentType;
 
 public class UnitTest {
